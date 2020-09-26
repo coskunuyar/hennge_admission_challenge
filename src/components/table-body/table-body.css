@@ -1,0 +1,143 @@
+p {
+  margin: 0px;
+}
+
+.table-body-item:hover {
+  background-color: rgb(250 250 250);
+  cursor: pointer;
+  color: blue;
+}
+
+.table-body-item {
+  border-bottom: 0.8px solid rgb(229 229 229);
+}
+
+.table-body-subitem {
+  font-size: 12px;
+  padding: 9px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.table-body-subitem-to-rest {
+  color: white;
+  background-color: grey;
+  border-radius: 2px;
+  font-size: 7px;
+  padding-left: 3px;
+  padding-right: 3px;
+  margin-top: 3px;
+  margin-right: 4px;
+  float: right;
+}
+
+.table-body-clip-logo {
+  width: 12px;
+  height: 12px;
+  float: right;
+  margin-top: 3px;
+}
+
+.table-body-subitem.true {
+  font-weight: bold;
+  color: black;
+}
+
+@media screen and (max-width: 768px) {
+  .table-body-item {
+    padding-top: 8px;
+    padding-bottom: 8px;
+  }
+
+  .table-body-subitem {
+    padding: 0px !important;
+  }
+
+  .table-body-subitem-from {
+    padding-top: 6px !important;
+    padding-bottom: 6px !important;
+    padding-left: 5px !important;
+  }
+
+  .table-body-subitem-to {
+    padding-bottom: 6px !important;
+    padding-left: 7px !important;
+  }
+
+  .table-body-subitem-subject {
+    display: flex;
+    justify-content: space-between;
+    font-size: 13px;
+    padding-left: 15px !important;
+  }
+
+  .table-body-subitem-date {
+    display: none;
+  }
+
+  .table-body-subitem-date-mobile {
+    padding-top: 6px !important;
+    display: block !important;
+    text-align: center;
+  }
+
+  .table-body-mail-container {
+    display: block !important;
+  }
+
+  .table-body-attachment {
+    display: none;
+  }
+
+  .table-body-attachment-mobile {
+    float: right;
+    display: block !important;
+  }
+}
+
+.table-body-attachment-mobile {
+  display: none;
+}
+
+.table-body-mail-logo {
+  height: 30px;
+  margin-top: 10px;
+}
+
+.table-body-mail-container {
+  display: none;
+}
+
+.table-body-subitem-date-mobile {
+  display: none;
+}
+
+.table-body-arrow-mobile {
+  width: 3px;
+  margin-left: 5px;
+}
+
+.table-body-date-mobile {
+  font-size: 10px;
+  display: inline;
+}
+
+.table-body-mail-body-container {
+  padding: 10px;
+  font-size: 11px;
+  font-style: italic;
+  box-shadow: 6px 6px 23px -2px rgb(0 0 0 / 17%);
+  margin: 5px;
+  margin-top: 7px;
+  margin-bottom: 7px;
+  border-radius: 10px;
+}
+
+.table-body-mail-body-container:hover {
+  color: black;
+}
+
+.table-body-mail-body-container span {
+  font-weight: bold;
+}

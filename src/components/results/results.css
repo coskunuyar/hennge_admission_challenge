@@ -1,0 +1,22 @@
+.results-container {
+  border: 1px solid transparent;
+  border-bottom-color: rgb(229 229 229);
+}
+
+.results-text {
+  color: rgb(132 132 132);
+  font-size: 10px;
+  font-weight: 700;
+  margin-bottom: 4px;
+}
+
+.results-text span {
+  font-size: 14px;
+  color: rgb(107 107 107);
+}
+
+@media screen and (max-width: 576px) {
+  .results-text {
+    margin-left: 15px;
+  }
+}
